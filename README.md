@@ -37,4 +37,7 @@ Can we stay calm after wrong submissions?
 In ICPC, teamwork is an algorithm too.
 
 The right team can convert average individual skill into strong contest performance.
+
+Credit: 
+Jaskaran Singh
 </details>
