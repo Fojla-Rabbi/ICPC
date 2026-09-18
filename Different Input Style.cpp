@@ -1,3 +1,7 @@
+// The end of the input is indicated by a line consisting of two zeros.
+// (This means a complete Test Case set ends with 0 0)
+// See the last part after the code
+
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
@@ -40,3 +44,48 @@ int main() {
 
     return 0;
 }
+
+
+/*
+Suppose the judge gives your program:
+
+4 8
+1 2 3 4
+
+2 10
+15 3
+
+3 14
+6 7 13
+
+0 0
+
+That's 3 test cases in one execution:
+
+Program starts
+    ↓
+Test case 1
+    ↓
+Test case 2
+    ↓
+Test case 3
+    ↓
+0 0
+    ↓
+Program finishes
+
+
+If another judge input happens to contain 20 test cases, 
+that's a completely fresh execution of your program:
+
+Program starts again from main()
+    ↓
+Test case 1
+Test case 2
+...
+Test case 20
+    ↓
+0 0
+    ↓
+Program finishes
+*/
